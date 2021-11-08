@@ -10,13 +10,18 @@ def birthdays():
         list_one.append(r)
     print(list_one)
 
-def find_duplicate():
+def find_duplicate(listx):
     for x in range(22):
-        list[x]
         for y in range(x+1,23):
-            list[y]
-    if list[x]== list[y]:
-        return true
+            if listx[x]== listx[y]:
+                return true
+    return false
+def main():
+    num= (int(input("How many times should this program run?")))
+    for x in range(num):
+        birthdays()
+        find_duplicate(birthdays())
+main()
 
 
 
